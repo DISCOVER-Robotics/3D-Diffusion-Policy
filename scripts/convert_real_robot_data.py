@@ -72,7 +72,7 @@ def preprocess_point_cloud(points, use_cuda=True):
     return points
    
 def preproces_image(image):
-    img_size = 84
+    img_size = 336
     
     image = image.astype(np.float32)
     image = torch.from_numpy(image).cuda()
