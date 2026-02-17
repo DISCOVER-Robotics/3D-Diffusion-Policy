@@ -1,7 +1,5 @@
 import os
 import hydra
-import torch
-import dill
 from omegaconf import OmegaConf
 import pathlib
 from diffusion_policy_3d.workspace import TrainDP3Workspace
